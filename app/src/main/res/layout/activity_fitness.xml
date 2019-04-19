@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/my_drawer_signed"
+    tools:context=".fitness">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient">
+
+            <TextView
+                android:id="@+id/AlertTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:visibility="invisible"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/grey"
+                android:gravity="center_horizontal"
+                android:text="FITNESS ACTIVITY"
+                android:textSize="40dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="140dp"
+                android:background="@color/blue"
+                android:gravity="center"
+                android:text="SQAUTS"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/squadImage"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="200dp" />
+
+            <TextView
+                android:id="@+id/squatText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/squadImage"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:inputType="textMultiLine"
+                android:text="@string/squat" />
+
+            <TextView
+                android:id="@+id/squadStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:textSize="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/white"
+                android:ems="10"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/squatText"
+                android:text="4 sets(15 reps each)"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@color/blue"
+                android:layout_below="@+id/squadStart"
+                android:gravity="center"
+                android:id="@+id/crunch"
+                android:text="CRUNCHES"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/crunchImage"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/crunch"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="700dp"/>
+
+            <TextView
+                android:id="@+id/crunchText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/crunchImage"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:inputType="textMultiLine"
+                android:text="@string/crunch" />
+
+            <TextView
+                android:id="@+id/crunchStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:textSize="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/white"
+                android:ems="10"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/crunchText"
+                android:text="3 sets(15 reps each)"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@color/blue"
+                android:layout_below="@+id/crunchStart"
+                android:gravity="center"
+                android:id="@+id/pushup"
+                android:text="PUSH-UPS"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/pushupImage"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/pushup"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="1270dp"/>
+
+            <TextView
+                android:id="@+id/pushupText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pushupImage"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:inputType="textMultiLine"
+                android:text="@string/pushup" />
+
+            <TextView
+                android:id="@+id/pushupStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:textSize="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/white"
+                android:ems="10"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/pushupText"
+                android:text="4 set(20 reps each)"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@color/blue"
+                android:layout_below="@+id/pushupStart"
+                android:gravity="center"
+                android:id="@+id/jumpingjack"
+                android:text="JUMPING JACKS"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/jumpingjackImage"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/jumpingjack"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="1840dp"/>
+
+            <TextView
+                android:id="@+id/jumpingjackText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/jumpingjackImage"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:inputType="textMultiLine"
+                android:text="@string/jumpingjack" />
+
+            <TextView
+                android:id="@+id/jumpingjackStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:textSize="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/white"
+                android:ems="10"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/jumpingjackText"
+                android:text="3 set(50 reps each)"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@color/blue"
+                android:layout_below="@+id/jumpingjackStart"
+                android:gravity="center"
+                android:id="@+id/glutebridge"
+                android:text="GLUTE BRIDGE"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/glutebridgeImage"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/glutebridge"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="2410dp"/>
+
+            <TextView
+                android:id="@+id/glutebridgeText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/glutebridgeImage"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:inputType="textMultiLine"
+                android:text="@string/glutebridge" />
+
+            <TextView
+                android:id="@+id/gluteBridgeStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:textSize="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/white"
+                android:ems="10"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/glutebridgeText"
+                android:text="4 sets(15 reps each)"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@color/blue"
+                android:layout_below="@+id/gluteBridgeStart"
+                android:gravity="center"
+                android:id="@+id/lunges"
+                android:text="LUNGES"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/lungesImage"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/lunges"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="2960dp"/>
+
+            <TextView
+                android:id="@+id/lungesText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lungesImage"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:inputType="textMultiLine"
+                android:text="@string/lunges" />
+
+            <TextView
+                android:id="@+id/lungesStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:textSize="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/white"
+                android:ems="10"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/lungesText"
+                android:text="4 sets(15 reps each)"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@color/blue"
+                android:layout_below="@+id/lungesStart"
+                android:gravity="center"
+                android:id="@+id/plank"
+                android:text="PLANK"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/plankImage"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/plank"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="3550dp"/>
+
+            <TextView
+                android:id="@+id/plankText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/plankImage"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:inputType="textMultiLine"
+                android:text="@string/plank" />
+
+            <TextView
+                android:id="@+id/plankStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:textSize="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/white"
+                android:ems="10"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/plankText"
+                android:text="4 sets(1 min each)"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/my_header"
+        app:menu="@menu/my_nav_menu">
+
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>

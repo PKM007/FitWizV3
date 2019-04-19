@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/bmibmr"
+            android:icon="@drawable/ic_activity"
+            android:title="BMI And BMR Calculator"/>
+
+        <item
+            android:id="@+id/fitness"
+            android:icon="@drawable/ic_activity"
+            android:title="Fitness Activity"/>
+
+        <item
+            android:id="@+id/yoga"
+            android:icon="@drawable/ic_activity"
+            android:title="Yoga Activity" />
+
+        <item
+            android:id="@+id/bulkncut"
+            android:icon="@drawable/ic_activity"
+            android:title="Bulk And Cut Activity"/>
+
+        <item
+            android:id="@+id/health"
+            android:icon="@drawable/ic_activity"
+            android:title="Health N Diet"/>
+
+        <item
+            android:id="@+id/fragment"
+            android:icon="@drawable/ic_activity"
+            android:title="More Health Solutions"/>
+
+
+    </group>
+    <item
+        android:title="Communicate" >
+        <menu>
+            <item android:id="@+id/share"
+                android:icon="@drawable/ic_share"
+                android:title="Share"/>
+
+            <item
+                android:title="Contact Us"
+                android:icon="@drawable/ic_contact"
+                android:id="@+id/contact"/>
+
+            <item
+                android:id="@+id/aboutus"
+                android:title="About Us"
+                android:icon="@drawable/ic_aboutus"/>
+
+            <item
+                android:id="@+id/map"
+                android:title="Locate Fitness Center" />
+        </menu>
+    </item>
+    <item
+        android:title="Sign Out"
+        android:icon="@drawable/ic_signout"
+        android:id="@+id/signout"/>
+</menu>

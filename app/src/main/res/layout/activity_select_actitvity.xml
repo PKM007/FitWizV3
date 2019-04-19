@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/my_drawer_signed"
+tools:context=".selectActitvity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient3">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/AlertTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:visibility="invisible"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/grey"
+                android:gravity="center_horizontal"
+                android:text="SELECT ACTIVITY"
+                android:textSize="40dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="140dp"
+                android:background="@color/blue"
+                android:gravity="center"
+                android:text="FITNESS ACTIVITY"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/fitnessImage"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="200dp" />
+
+            <TextView
+                android:id="@+id/fitnessText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fitnessImage"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:inputType="textMultiLine"
+                android:text="@string/fitness" />
+
+            <Button
+                android:id="@+id/fitnessButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/fitnessText"
+                android:text="Start Activity"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@color/blue"
+                android:layout_below="@+id/fitnessButton"
+                android:gravity="center"
+                android:id="@+id/yoga"
+                android:text="YOGA ACTIVITY"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/yogaImage"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/yoga"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="700dp"/>
+
+            <TextView
+                android:id="@+id/yogaText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/yogaImage"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:inputType="textMultiLine"
+                android:text="@string/yoga" />
+
+            <Button
+                android:id="@+id/yogaButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/yogaText"
+                android:text="Start Activity"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@color/blue"
+                android:layout_below="@+id/yogaButton"
+                android:gravity="center"
+                android:id="@+id/bulk"
+                android:text="BULK AND CUT ACTIVITY"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/bulkImage"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/bulk"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="1270dp"/>
+
+            <TextView
+                android:id="@+id/bulkText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bulkImage"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:inputType="textMultiLine"
+                android:text="@string/bulk" />
+
+            <Button
+                android:id="@+id/bulkButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/bulkText"
+                android:text="Start Activity"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@color/blue"
+                android:layout_below="@+id/bulkButton"
+                android:gravity="center"
+                android:id="@+id/health"
+                android:text="HEALTH AND DIET"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/healthImage"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/jumpingjack"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="1840dp"/>
+
+            <TextView
+                android:id="@+id/healthText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/healthImage"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:inputType="textMultiLine"
+                android:text="@string/health" />
+
+            <Button
+                android:id="@+id/healthButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/healthText"
+                android:text="Start Activity"/>
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/my_header"
+        app:menu="@menu/my_nav_menu">
+
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>
